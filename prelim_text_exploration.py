@@ -4,7 +4,7 @@
 pd.set_option('max_colwidth', -1)
 import pandas as pd 
 import os
-wd='C:\\Users\\eak1303\\opioid_text_classification\\everett_sample'
+wd='file_path'
 
 #%% 
 # importing possible overdose tagged dataset and not possible overdose dataset

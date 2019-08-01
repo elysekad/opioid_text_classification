@@ -2,10 +2,10 @@
 # this script pulls in data from ESSENCE, does some prelim text cleaning of the triage notes data, spellchecks opioid-related terms of interest and filters a subset of visits that are most likely related to opioid overdose. It saves two non-overlapping datasets to the wd: possible overdose visits and all other visits.   
 
 #enter wd, username, pw, and api url
-wd='C:\\Users\\eak1303\\opioid_text_classification\\everett_sample'
-username='ekadokura01'
-pw='asDFjk1@#k16'
-api_link='https://essence.syndromicsurveillance.org/nssp_essence/api/dataDetails?endDate=28Feb2019&percentParam=noPercent&geographySystem=region&datasource=va_er&detector=probrepswitch&startDate=1Oct2018&timeResolution=daily&hasBeenE=1&erFacility=1283&medicalGroupingSystem=essencesyndromes&userId=1165&aqtTarget=DataDetails&field=Date&field=C_BioSense_ID&field=Admit_Date_Time&field=Patient_Class_Code&field=PatientClassUpdates&field=ChiefComplaintOrig&field=Chief_Complaint_Combo&field=DischargeDiagnosis&field=DischargeDiagnosisUpdates&field=Diagnosis_Combo&field=Medical_Record_Number&field=Visit_ID&field=Admit_Reason_Code&field=Admit_Reason_Combo&field=TriageNotesOrig&field=Age&field=Sex'
+wd='file_path'
+username='username'
+pw='pw'
+api_link='URL'
 file_name='possible_overdoses.csv'
 
 ####################################################################################################################################################################################

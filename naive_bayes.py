@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import numpy as np
 pd.set_option('max_colwidth', -1)
-wd='C:\\Users\\eak1303\\opioid_text_classification\\everett_sample'
+wd='file_path'
 
 #%%
 os.chdir(wd)
